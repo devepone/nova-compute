@@ -1,0 +1,1678 @@
+{
+  "layers": [
+    "nova-compute", 
+    "build"
+  ], 
+  "signatures": {
+    ".build.manifest": [
+      "build", 
+      "dynamic", 
+      "unchecked"
+    ], 
+    "LICENSE": [
+      "nova-compute", 
+      "static", 
+      "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    ], 
+    "Makefile": [
+      "nova-compute", 
+      "static", 
+      "a15098fd6e09630a5e0160b961c96daa494050e5bd82bd91f4a1f82ff74b5072"
+    ], 
+    "README.md": [
+      "nova-compute", 
+      "static", 
+      "a338ef8ce7102a2a8ae738f8e832255cbb568e872daaa53a0b0000a10867f5b9"
+    ], 
+    "actions.yaml": [
+      "nova-compute", 
+      "dynamic", 
+      "34f27ec0ad8025937f648cf3933aef558cef360dff187e34892bdd4e9b4360d9"
+    ], 
+    "actions/git-reinstall": [
+      "nova-compute", 
+      "static", 
+      "13a328370f809372d3d4ab83b6b5007eee982dfff12965247ff0e58f9e5e32fa"
+    ], 
+    "actions/git_reinstall.py": [
+      "nova-compute", 
+      "static", 
+      "13a328370f809372d3d4ab83b6b5007eee982dfff12965247ff0e58f9e5e32fa"
+    ], 
+    "actions/openstack-upgrade": [
+      "nova-compute", 
+      "static", 
+      "37d895f51d8c91dbe424d796a6850fb5270a337b0638758d7fb13c015d2a9a0b"
+    ], 
+    "actions/openstack_upgrade.py": [
+      "nova-compute", 
+      "static", 
+      "37d895f51d8c91dbe424d796a6850fb5270a337b0638758d7fb13c015d2a9a0b"
+    ], 
+    "actions/pause": [
+      "nova-compute", 
+      "static", 
+      "f8cf4d5ca894d5f78a0cea43e105eb3c8d15c9df0f5e42f548c9fc87d02e2d23"
+    ], 
+    "actions/pause_resume.py": [
+      "nova-compute", 
+      "static", 
+      "f8cf4d5ca894d5f78a0cea43e105eb3c8d15c9df0f5e42f548c9fc87d02e2d23"
+    ], 
+    "actions/resume": [
+      "nova-compute", 
+      "static", 
+      "f8cf4d5ca894d5f78a0cea43e105eb3c8d15c9df0f5e42f548c9fc87d02e2d23"
+    ], 
+    "charm-helpers-hooks.yaml": [
+      "nova-compute", 
+      "static", 
+      "ee6a711ad880cd75f093cafc4b15bbb80289877916865f27e7968f88d9714660"
+    ], 
+    "charm-helpers-tests.yaml": [
+      "nova-compute", 
+      "static", 
+      "c7caf6d478583fc6fcd2e4cc22bd8100830b179984e849c527ddb2c54abfb3b1"
+    ], 
+    "config.yaml": [
+      "nova-compute", 
+      "dynamic", 
+      "0bdc46811ad99ecbdfd3dc986bf7c4499aca5893493005787f1e0585d607ed9f"
+    ], 
+    "copyright": [
+      "nova-compute", 
+      "static", 
+      "83f45fe827cd0dd7e8c8dee15bcd4c1244c757451a663be089386edeacf04a85"
+    ], 
+    "files/qemu-hugefsdir": [
+      "nova-compute", 
+      "static", 
+      "c1f3c82b22ce66bc8d18e767efbe552152f5df6cc20db7fad53cec76e1a89738"
+    ], 
+    "hardening.yaml": [
+      "nova-compute", 
+      "static", 
+      "58efc001c66f043f5676bd0b9ce2d2aae2a580157c90a82ec78c9a4b7773d4ae"
+    ], 
+    "hooks/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "4f0df770a0279743b329ffc3e55a95cabfff7969f25bac47be1cc6e92254b29b"
+    ], 
+    "hooks/amqp-relation-broken": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/amqp-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/amqp-relation-departed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/amqp-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/ceph-access-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/ceph-access-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/ceph-relation-broken": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/ceph-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/ceph-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/charmhelpers/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "71c9fb5d91ae2b93e83ad8ad342dc0b806f51e916ba83f6808bd78d70b645490"
+    ], 
+    "hooks/charmhelpers/cli/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "c9fdc7cfa2313f82fd29b06899c0f5657819b0f6868e84f7e340f2a67fd90182"
+    ], 
+    "hooks/charmhelpers/cli/benchmark.py": [
+      "nova-compute", 
+      "static", 
+      "d04540f5b33d7448861b9ce8dd13b117fb6b5699e4270840d5029abbef62f619"
+    ], 
+    "hooks/charmhelpers/cli/commands.py": [
+      "nova-compute", 
+      "static", 
+      "e42961878e052dff2f0c61ab64569a176047bd1630e2d8ed164fd669bc605653"
+    ], 
+    "hooks/charmhelpers/cli/hookenv.py": [
+      "nova-compute", 
+      "static", 
+      "e49effadf39b994a8f5f9a2f6d74cf9a29ec457d59eda9d7c515650bbd1fe1a7"
+    ], 
+    "hooks/charmhelpers/cli/host.py": [
+      "nova-compute", 
+      "static", 
+      "679a1743977dbcc37fb42dab4c749dc75239b5d41dea42fa42c074b86ac64ba3"
+    ], 
+    "hooks/charmhelpers/cli/unitdata.py": [
+      "nova-compute", 
+      "static", 
+      "55c5240a43ecf9f80f8aa25993bf4a4e90e4e5b196dc49740d93f7f434f16250"
+    ], 
+    "hooks/charmhelpers/contrib/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/charmsupport/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/charmsupport/nrpe.py": [
+      "nova-compute", 
+      "static", 
+      "6330804cde0ce617b3bba04b07a1b38447b4efd55864c81f384bcb2ec8d50446"
+    ], 
+    "hooks/charmhelpers/contrib/charmsupport/volumes.py": [
+      "nova-compute", 
+      "static", 
+      "5ee1bd150e3122b1dd390d4a2ed37639388e31cdc00f6e0c5145c908eb386dcf"
+    ], 
+    "hooks/charmhelpers/contrib/hahelpers/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/hahelpers/apache.py": [
+      "nova-compute", 
+      "static", 
+      "5f78c8e8ecec36f88cc46b32e4681fc30e0fc72ab10f5871be027a4326c259fc"
+    ], 
+    "hooks/charmhelpers/contrib/hahelpers/cluster.py": [
+      "nova-compute", 
+      "static", 
+      "c3962d9db0653febad018d7b9e735c880cc8ea8292801374c050fcaa8eff97b6"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/README.hardening.md": [
+      "nova-compute", 
+      "static", 
+      "7d0ee87dc9a94d2ab433da80c1c12aac79c124c10b7e65e784f6645d0a03592f"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "272288a2dfe7cb4ed4e64cbeb56b730df1ff321b1a6b626665016117b3f724db"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/apache/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "0069f3b9f531174f6b14931a2ae61da563c9d951590adfc3366ed11633830ed6"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/apache/checks/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "959adf78dbe01b20b44fa0e48c74e74efa55887b428bcc005137bde7cc25b6a9"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/apache/checks/config.py": [
+      "nova-compute", 
+      "static", 
+      "6e883860f8530865894b6943a55a1f3cc4ab5d38cc3785c57a6a0350b6510b46"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/apache/templates/99-hardening.conf": [
+      "nova-compute", 
+      "static", 
+      "422337694d6cb2388efacaad5ee0b20597211e999f094a0fde95202e626e6aa8"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/apache/templates/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/apache/templates/alias.conf": [
+      "nova-compute", 
+      "static", 
+      "6c2986e42152253cad8c9b5b1cdccd98928a672309b91fecb52ef085b6738203"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/audits/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "68aada3efc514cbac313c94fd12af4b0db89c8d0941e9de8f385d8a0ae9c091f"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/audits/apache.py": [
+      "nova-compute", 
+      "static", 
+      "3d20de3a406755ce82e46fdccacb96e2e41ecef765b2c83813c665fd62d3ddee"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/audits/apt.py": [
+      "nova-compute", 
+      "static", 
+      "fbd38cab66668f8cae08bc3296bade2e53cf945dfdffa955180df3cde16e7f1c"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/audits/file.py": [
+      "nova-compute", 
+      "static", 
+      "fc618dda846f45a5bad3012d1f29faa6d1410ace4d3534198f46394ac55f0792"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/apache.yaml": [
+      "nova-compute", 
+      "static", 
+      "b6b0828bb597db492496ae681d342c6b96e6899d96638906923c1221ac4ebe0c"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/apache.yaml.schema": [
+      "nova-compute", 
+      "static", 
+      "de552d2e3209215e1e3153f691caedb7eaaa662f89bbf97d85e819543a488a9e"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/mysql.yaml": [
+      "nova-compute", 
+      "static", 
+      "005c40739af703f764300e3459ba5aeff83380be128ce4b76a0b8c4fa351912e"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/mysql.yaml.schema": [
+      "nova-compute", 
+      "static", 
+      "8a7726941198437dec296a288c8ab8ef5fc3e4b05f08beab3241dbc2dee07c65"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/os.yaml": [
+      "nova-compute", 
+      "static", 
+      "bffc9ff7616446d711dadfc2aee6607598d9bae131c0d63c66bcd30050cdd558"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/os.yaml.schema": [
+      "nova-compute", 
+      "static", 
+      "dc7b818a394bfe0a3ac434a2f79e92a0f3437c1c2cbdeae1f852be1a5894c960"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/ssh.yaml": [
+      "nova-compute", 
+      "static", 
+      "54704551b47f072e5fcd4b5b557af403766eb3213ea0cf80001ddcf61037b23f"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/defaults/ssh.yaml.schema": [
+      "nova-compute", 
+      "static", 
+      "c63c88d5ea3eb0d1ff5a20cd2269b3632e0d66a520682c916fafc94b73b82c0f"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/harden.py": [
+      "nova-compute", 
+      "static", 
+      "30b34998f82a3340a3a22815f7c17b3a009560e6d0b36848327b33443a40e617"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "0069f3b9f531174f6b14931a2ae61da563c9d951590adfc3366ed11633830ed6"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "68837f89116a23583e74f6845d3dc2f7222c9e50f6c515789ffc6f535db481e6"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/apt.py": [
+      "nova-compute", 
+      "static", 
+      "97690a39faa9db340b50d45674197313d14643dfc066a558c2f80d84cf850748"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/limits.py": [
+      "nova-compute", 
+      "static", 
+      "a0c2e5726c3c3bc7969b31640174fbcd48eedc820e28cc2007d8a87309a03d12"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/login.py": [
+      "nova-compute", 
+      "static", 
+      "c5d969f648d85c7845781a172a548233fc10c19d211f736383006fd4a4cd5513"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/minimize_access.py": [
+      "nova-compute", 
+      "static", 
+      "3f1d4e43de91352037b561585b47969089347a59d6b23940ca1a749fe14ccb94"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/pam.py": [
+      "nova-compute", 
+      "static", 
+      "7618ea40db013d0f368ea43e1439b1b8ac88f904fb9d57cf2c0a4ee438415534"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/profile.py": [
+      "nova-compute", 
+      "static", 
+      "742f830707c7bd200b196cec3dcf29e954ce467db98ceeec8ed54f2b89bb5c96"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/securetty.py": [
+      "nova-compute", 
+      "static", 
+      "480ecb9fd756d413903288552abc757c94dc3606577e8a777274fd8666e4cf95"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/suid_sgid.py": [
+      "nova-compute", 
+      "static", 
+      "3da340536a09973e9dad75a990886d21ee2bc5b6b3c88f425d9bebdb5bdbea37"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/checks/sysctl.py": [
+      "nova-compute", 
+      "static", 
+      "a3e9f2f4e9eda269d328ffa269e17287e8ed2dec46d38fb5d58def18e48d180c"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/10.hardcore.conf": [
+      "nova-compute", 
+      "static", 
+      "df6a7e5e9ea74dd62a0f009191f1deb48050f4cf3174015f30ce13d16d37b2f9"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/99-hardening.sh": [
+      "nova-compute", 
+      "static", 
+      "62a950f3aa70a971c84e6356a6391c2ac001a6531f15d1b6fc26da10f085bc92"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/99-juju-hardening.conf": [
+      "nova-compute", 
+      "static", 
+      "efeb9f0bfd9da54878ddf96fb149a13de52724e6e7d3145b8c2194ec18e6ee2b"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/login.defs": [
+      "nova-compute", 
+      "static", 
+      "287ceb35bbb7af768f015e3fee1188027d8be71e790017c42193a7ff4c31355c"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/modules": [
+      "nova-compute", 
+      "static", 
+      "415ba500434040d8c02994b0dc6bc295fe254e4ddf2c5f5c82a37c12b281e52d"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/passwdqc.conf": [
+      "nova-compute", 
+      "static", 
+      "0e8250e2924d672c9bc72f6bb283038905594fa994b25af363fef781fb65c18c"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/pinerolo_profile.sh": [
+      "nova-compute", 
+      "static", 
+      "2f71f3bc01e8911357d52550f1d506f314189fb2f6881b4b0a95936c88b22335"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/securetty": [
+      "nova-compute", 
+      "static", 
+      "0ecdec6b3cfa7cc804234a0c2d1597b7e4cea79805d8593c9a8bd50f348b0129"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/host/templates/tally2": [
+      "nova-compute", 
+      "static", 
+      "e95c5dcf33c9233febd901197c3e7953a701feb92043e85bb31467a13101e1e4"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/mysql/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "0069f3b9f531174f6b14931a2ae61da563c9d951590adfc3366ed11633830ed6"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/mysql/checks/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "fa25d99bd9381c835f16670e9b1dddb12fabed27202e478101375afa957bbdc0"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/mysql/checks/config.py": [
+      "nova-compute", 
+      "static", 
+      "b66a79200413b8bae1416578342c258c710bacaeac21cc2d0b38fa707496e693"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/mysql/templates/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/mysql/templates/hardening.cnf": [
+      "nova-compute", 
+      "static", 
+      "e8409b0edfade0f607b82d727a2acd9a3a38a80d13866603dfa33f2fe23774f3"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/ssh/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "0069f3b9f531174f6b14931a2ae61da563c9d951590adfc3366ed11633830ed6"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/ssh/checks/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "851d341b8014748a36eafce44ceabdabf9f1016aaaa3b63be762136e5b1f441c"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/ssh/checks/config.py": [
+      "nova-compute", 
+      "static", 
+      "9e1ebf1eb35cec746fa48012b36f1b35d17dfb5948c74f79147a7c481ecb3a51"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/ssh/templates/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/ssh/templates/ssh_config": [
+      "nova-compute", 
+      "static", 
+      "4e971ac65e3f226dce97ae66a76765250dffa96a8db4c924f0b2bf3f156b2204"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/ssh/templates/sshd_config": [
+      "nova-compute", 
+      "static", 
+      "694fa944909af080dd81d95fcd162b367d0a00e605b4ca1f156bad00e59546de"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/templating.py": [
+      "nova-compute", 
+      "static", 
+      "222c39942e8521a746747eb70ab30eb985ffedb187c2d96d33002125634ecab0"
+    ], 
+    "hooks/charmhelpers/contrib/hardening/utils.py": [
+      "nova-compute", 
+      "static", 
+      "72c448aa831be64d300fc4c4834eb0b7c809c8d8766df2215bc3cf342496f9f7"
+    ], 
+    "hooks/charmhelpers/contrib/network/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/network/ip.py": [
+      "nova-compute", 
+      "static", 
+      "a9e4b102c200ed2e078f2e46e2e618ffa25876b4e505ca3dc867994e3ac3e41a"
+    ], 
+    "hooks/charmhelpers/contrib/network/ovs/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "fae61e423a35664424f94d3e7957deef593c9d838d6b4fd5dd8fd4f5ed0ecc17"
+    ], 
+    "hooks/charmhelpers/contrib/network/ufw.py": [
+      "nova-compute", 
+      "static", 
+      "9058f83941b9624bac61d10823d7b0010a3fec6fdc85ca2bc0caa410c56ac995"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/alternatives.py": [
+      "nova-compute", 
+      "static", 
+      "589430f7479f785231b6e5e06d1a4e60e3e3c13d6906764783259cd2e2f8f7a0"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/amulet/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/amulet/deployment.py": [
+      "nova-compute", 
+      "static", 
+      "31b0349218e677d7e7301e0b02baee47ebd870db7d963ddb00eb6ebaada5a2ef"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/amulet/utils.py": [
+      "nova-compute", 
+      "static", 
+      "523046a14286713a60e9c036fb0d78dac497d60d912e1880827464a4c63a2e13"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/context.py": [
+      "nova-compute", 
+      "static", 
+      "4aebfb22750b9980e863385a7ed54e4915c53b5ec3e96eb8ee232c5ba3764226"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/exceptions.py": [
+      "nova-compute", 
+      "static", 
+      "2bb336bdbeaf4aced2820e9053fd3f5d6b9add3dd912278831da86d4fdf662a7"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/files/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "3c9fe89c11769319e8bb9fc9105b2aa33528af4f0f84a407390d9ffbf0f12d47"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/files/check_haproxy.sh": [
+      "nova-compute", 
+      "static", 
+      "eaa8d5ccc9e6f625fa4b31903a1cc633379264d8797b9d13eb9e20e1e544ff54"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/files/check_haproxy_queue_depth.sh": [
+      "nova-compute", 
+      "static", 
+      "5b17d66803fcd99425ca8ea90c90aa3c7db3c8f6b91ea1f3cd92f8f5c037f53d"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/ha/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "4f0df770a0279743b329ffc3e55a95cabfff7969f25bac47be1cc6e92254b29b"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/ha/utils.py": [
+      "nova-compute", 
+      "static", 
+      "db44bd42fd54dca2c4aa7f484ca29c7ba0850fa6ef5effee2c3891a56d1b0503"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/ip.py": [
+      "nova-compute", 
+      "static", 
+      "85e6c8eb839fedd3b2ee4894594f9437e2faea2dbb11575d0c8ead73f2e50da6"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/keystone.py": [
+      "nova-compute", 
+      "static", 
+      "8a4155f008e3ec192443ec41a7b320ef7ef478cc940b81a4dd0c6eacdc0d5c71"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/neutron.py": [
+      "nova-compute", 
+      "static", 
+      "940b88f9c05a73307c7f97563c086fb953e5c3c838794817aae4ec083d953e42"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "3c9fe89c11769319e8bb9fc9105b2aa33528af4f0f84a407390d9ffbf0f12d47"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/ceph.conf": [
+      "nova-compute", 
+      "static", 
+      "bbc8d4b81f19843085097b786eda3b3c269ba11921faa962908bbe6784e7a1e5"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/git.upstart": [
+      "nova-compute", 
+      "static", 
+      "a1d3e125c84e4f47720e874275784ea5a14c0ce2feda58b68c9da3bad7233fb7"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/haproxy.cfg": [
+      "nova-compute", 
+      "static", 
+      "834dc5f0c64d5b5153753e999ab0e26aec2c7e876c69196a97841762bb12eab4"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/memcached.conf": [
+      "nova-compute", 
+      "static", 
+      "2243cc5ae1f36e7c01d832ac9540048ae424e27a78d343589f57c33fd4f756ca"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/openstack_https_frontend": [
+      "nova-compute", 
+      "static", 
+      "3d0bd017c4a414d283f0f6ca50d22a7f4e365c1c58864bd5603b11ce14857137"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/openstack_https_frontend.conf": [
+      "nova-compute", 
+      "static", 
+      "3d0bd017c4a414d283f0f6ca50d22a7f4e365c1c58864bd5603b11ce14857137"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/section-keystone-authtoken": [
+      "nova-compute", 
+      "static", 
+      "81f55977ea3bc970ceda4783112c1da126622035ed0f0ba7e5d592d4423735e2"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/section-keystone-authtoken-legacy": [
+      "nova-compute", 
+      "static", 
+      "9a5f52457910d652a136d661453d800c69bba1414039b1717d3f03a589ca6d11"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/section-keystone-authtoken-mitaka": [
+      "nova-compute", 
+      "static", 
+      "aa789c8bd811e24eca25853138a3f41a157391263f95c0f36dd2191b6aa62ea0"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/section-oslo-cache": [
+      "nova-compute", 
+      "static", 
+      "4ba5bb69c443646877511dbd698731c2e942dcc582448a5a07d94bf4a1b63b02"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/section-oslo-notifications": [
+      "nova-compute", 
+      "static", 
+      "54899f532dd77f19180e5abd263b36f584f5ed448bfc298885fea20f6b900d7e"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/section-rabbitmq-oslo": [
+      "nova-compute", 
+      "static", 
+      "f357d7eaf5ec62b3524bfe746e278840e5a598c55f39b45210153c2821d87d14"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/section-zeromq": [
+      "nova-compute", 
+      "static", 
+      "a81b5e26d8f8b4800438e73b92402f9da6c34e94b240a50d6cd854ada12fa32e"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templates/wsgi-openstack-api.conf": [
+      "nova-compute", 
+      "static", 
+      "b25f9b0738edb3fa0d8f437d962e70691fa51dfe86e75f1bd3c5e287554fa6c3"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/templating.py": [
+      "nova-compute", 
+      "static", 
+      "4144612230a6aec107329bc737e4c2adb8d95835593c387553dcc503db1245f7"
+    ], 
+    "hooks/charmhelpers/contrib/openstack/utils.py": [
+      "nova-compute", 
+      "static", 
+      "82de99a8b4d26a1de5b0132ceac77767dfd7177537e867d3425351becd712760"
+    ], 
+    "hooks/charmhelpers/contrib/python/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/python/debug.py": [
+      "nova-compute", 
+      "static", 
+      "831c3699035254c602aa47cf0103b2a1468a8cc58e81c63a1033ba5bbc697e96"
+    ], 
+    "hooks/charmhelpers/contrib/python/packages.py": [
+      "nova-compute", 
+      "static", 
+      "f703f0deebfad732020ea2204f4902cf43672c5a5da8f405fde191037c107524"
+    ], 
+    "hooks/charmhelpers/contrib/python/rpdb.py": [
+      "nova-compute", 
+      "static", 
+      "67f155b6abde235e1cd031a72cc2c479d33357768554f1a7bef2d34f8b781e1d"
+    ], 
+    "hooks/charmhelpers/contrib/python/version.py": [
+      "nova-compute", 
+      "static", 
+      "a2fb30004735fc64b5e684c0fdc2d5f6d3cdda64176347af1b1bc681751a9daf"
+    ], 
+    "hooks/charmhelpers/contrib/storage/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/storage/linux/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/contrib/storage/linux/bcache.py": [
+      "nova-compute", 
+      "static", 
+      "ce0b05f05105bcf0c8c8d806206ef8843ccf4e75d8cc971caba29d7f3c560b99"
+    ], 
+    "hooks/charmhelpers/contrib/storage/linux/ceph.py": [
+      "nova-compute", 
+      "static", 
+      "c6b347988804676c73ebdc84273cc5d372978ebe1a233fae3f81c33e25a97e15"
+    ], 
+    "hooks/charmhelpers/contrib/storage/linux/loopback.py": [
+      "nova-compute", 
+      "static", 
+      "b4d430dc5ae5589be63dd4a9cfccce936f3dde0c1157b30ab3dccb2e7fdd8f91"
+    ], 
+    "hooks/charmhelpers/contrib/storage/linux/lvm.py": [
+      "nova-compute", 
+      "static", 
+      "454d6a0bc4cf2562bf551d755a593d349246807ca26359dfd2a5665d3ba88aad"
+    ], 
+    "hooks/charmhelpers/contrib/storage/linux/utils.py": [
+      "nova-compute", 
+      "static", 
+      "98bbf74fee61b25d85bca5efee15445985ba3705175941aa32b3e97bbdf327fa"
+    ], 
+    "hooks/charmhelpers/core/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "hooks/charmhelpers/core/decorators.py": [
+      "nova-compute", 
+      "static", 
+      "ec8a639c111bb78f7a36a96383c3aabed453eaa055ef81550fd647d38c0ba885"
+    ], 
+    "hooks/charmhelpers/core/files.py": [
+      "nova-compute", 
+      "static", 
+      "aebc21fa7beae13ae5b87de858fc00fad06904d0d35f72bdb49c2c4900b75f13"
+    ], 
+    "hooks/charmhelpers/core/fstab.py": [
+      "nova-compute", 
+      "static", 
+      "0c5eca5f455e4c46da237176112a960d067b702b725f8c53dfecc7aad453ea39"
+    ], 
+    "hooks/charmhelpers/core/hookenv.py": [
+      "nova-compute", 
+      "static", 
+      "6d702fc40ddfff89d7e022fc80aa2480a8929f5bb31d87f5021933e5f8b9b3ea"
+    ], 
+    "hooks/charmhelpers/core/host.py": [
+      "nova-compute", 
+      "static", 
+      "2e783d4ef6b0c2ed9627583107d049b4b760ee1488212005a1c1ca7f541b60c4"
+    ], 
+    "hooks/charmhelpers/core/host_factory/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/charmhelpers/core/host_factory/centos.py": [
+      "nova-compute", 
+      "static", 
+      "4e2c5170a23f0c2eb91a10ba374597c1355bbbb94bbb09339242c440c775a882"
+    ], 
+    "hooks/charmhelpers/core/host_factory/ubuntu.py": [
+      "nova-compute", 
+      "static", 
+      "a4c045c2605a461d1ee76bb60d4114f8c750b61facb9e96cd35b545f33bd0ad6"
+    ], 
+    "hooks/charmhelpers/core/hugepage.py": [
+      "nova-compute", 
+      "static", 
+      "b9e936d52b565beab1181d21b8a22f85f442c29e8cc3e96c1eea1529dd9a9aed"
+    ], 
+    "hooks/charmhelpers/core/kernel.py": [
+      "nova-compute", 
+      "static", 
+      "b050c48878610b6413b548e031fbc62e3ad86711132d29699773b51cff83ba13"
+    ], 
+    "hooks/charmhelpers/core/kernel_factory/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "hooks/charmhelpers/core/kernel_factory/centos.py": [
+      "nova-compute", 
+      "static", 
+      "b4e04f888abd326a7b11ed9a6d6ab3ed6a91a2245fd4f5f89b13910b37a193bd"
+    ], 
+    "hooks/charmhelpers/core/kernel_factory/ubuntu.py": [
+      "nova-compute", 
+      "static", 
+      "a06289e52c5b81a823bd8e9c9d43ac18dd1616e16edd71e2a498d096d6592249"
+    ], 
+    "hooks/charmhelpers/core/services/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "65f4ffe4566c95ec2757d07b63dafe5bfc8ad07c2d113f2351e2b15def658595"
+    ], 
+    "hooks/charmhelpers/core/services/base.py": [
+      "nova-compute", 
+      "static", 
+      "657868bce9dc19ad50bafe83659b9fcb6372f2ae2f822743bd95a84cb237c4ca"
+    ], 
+    "hooks/charmhelpers/core/services/helpers.py": [
+      "nova-compute", 
+      "static", 
+      "995e0c72d6a02a454309036c1e9b097dcc413bb609830286174adc784eb70349"
+    ], 
+    "hooks/charmhelpers/core/strutils.py": [
+      "nova-compute", 
+      "static", 
+      "633a565edcdfa3f3f8a8dc5e3006d27a5e1ac548bb0eaff37be0dfcba57197b1"
+    ], 
+    "hooks/charmhelpers/core/sysctl.py": [
+      "nova-compute", 
+      "static", 
+      "1a91c168c7672bec2774a630554c9a8d75a16bc665d07a950b167ec9f2631d8a"
+    ], 
+    "hooks/charmhelpers/core/templating.py": [
+      "nova-compute", 
+      "static", 
+      "f42b76c0972072df5397504a9fcb75a09dc0dffab774d93897037820a4a3e2cd"
+    ], 
+    "hooks/charmhelpers/core/unitdata.py": [
+      "nova-compute", 
+      "static", 
+      "77613f93d617e09b6ef4967bd993cde6ca748dbcd4e05a98de740fdb8dc2184e"
+    ], 
+    "hooks/charmhelpers/fetch/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "a7d9d212dcb7270d1e3e492d65758f00426e653b49e5b419d6ae2d2c801e78a7"
+    ], 
+    "hooks/charmhelpers/fetch/archiveurl.py": [
+      "nova-compute", 
+      "static", 
+      "0a350a22e7684e184fc2b4cfc52a7bf2a7f123efc0a5cbd1467e29e54618b2b2"
+    ], 
+    "hooks/charmhelpers/fetch/bzrurl.py": [
+      "nova-compute", 
+      "static", 
+      "32d527f5f604b4a2108ae5ef3eecb2ee35c66c7ec7102b7ccd81ebad90e8c4a7"
+    ], 
+    "hooks/charmhelpers/fetch/centos.py": [
+      "nova-compute", 
+      "static", 
+      "7f016cc4e0dbf6600c35f4a2c8d072cb58615a9c0eef95635d413d516ecf76ec"
+    ], 
+    "hooks/charmhelpers/fetch/giturl.py": [
+      "nova-compute", 
+      "static", 
+      "28ba841f3a623cda07648ae33af9ff47cb759ab4852c9e5ffccb95c738d250eb"
+    ], 
+    "hooks/charmhelpers/fetch/snap.py": [
+      "nova-compute", 
+      "static", 
+      "da06d3f93f5a152cad0385122b0e8dd336044aefc6859661fd424c9037dbe62d"
+    ], 
+    "hooks/charmhelpers/fetch/ubuntu.py": [
+      "nova-compute", 
+      "static", 
+      "1634da6465c279cdadb0a321dc5c2cce41fb38525c907282d4f672cf16841a9b"
+    ], 
+    "hooks/charmhelpers/osplatform.py": [
+      "nova-compute", 
+      "static", 
+      "43257f5cea0eb917b727394d95f58d4519b7c4b6ce0d9cdb7008b159987eb353"
+    ], 
+    "hooks/charmhelpers/payload/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "06c2f163b18000529b778fa731e6588715d241c7f81e5682e1700fd3a70d5fa8"
+    ], 
+    "hooks/charmhelpers/payload/archive.py": [
+      "nova-compute", 
+      "static", 
+      "6f94cfcd0fa6585a33d97b70d06bc34dc827a274f7ff85d5463da472b11266d5"
+    ], 
+    "hooks/charmhelpers/payload/execd.py": [
+      "nova-compute", 
+      "static", 
+      "eb85b21238719c18858af9ad4971989856aeb92c946244629a5afd0b2abac402"
+    ], 
+    "hooks/cloud-compute-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/cloud-compute-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/compute-peer-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/config-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/ephemeral-backend-relation-broken": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/ephemeral-backend-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/image-service-relation-broken": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/image-service-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/install": [
+      "nova-compute", 
+      "static", 
+      "e44f13ab09a5320c6199f10cece4ac09fcc4c1210c3406cd70967e70f7bda715"
+    ], 
+    "hooks/install.real": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/lxd-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/lxd-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/neutron-plugin-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/neutron-plugin-relation-departed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/neutron-plugin-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/nova-ceilometer-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/nova-ceilometer-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/nova-designate-relation-broken": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/nova-designate-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/nova-designate-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/nova_compute_context.py": [
+      "nova-compute", 
+      "static", 
+      "072706797663c4985ea7bdae5b248887bb68e33ed304e6f7b7621b328e54a668"
+    ], 
+    "hooks/nova_compute_hooks.py": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/nova_compute_utils.py": [
+      "nova-compute", 
+      "static", 
+      "fb67bfb842acfd4bb17824baf52749dc4877b6bbc045ca560c61426add1d4d83"
+    ], 
+    "hooks/nrpe-external-master-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/nrpe-external-master-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/pgsql-db-relation-broken": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/pgsql-db-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/pgsql-db-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/shared-db-relation-broken": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/shared-db-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/shared-db-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/start": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/stop": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/update-status": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/upgrade-charm": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/zeromq-configuration-relation-changed": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "hooks/zeromq-configuration-relation-joined": [
+      "nova-compute", 
+      "static", 
+      "9aed20c510f7ae214c957460f672a7dfd7872d96620a9d165373f832cb245a33"
+    ], 
+    "icon.svg": [
+      "nova-compute", 
+      "static", 
+      "891161e770f11eaf266d8ef2da344dfebe8601f72a8ae8de2cb96ea03785b414"
+    ], 
+    "lib/.keep": [
+      "nova-compute", 
+      "static", 
+      "9273ba6366d655448cd59483e6c651e571332668d5659336a2c19a3e80065fc5"
+    ], 
+    "metadata.yaml": [
+      "nova-compute", 
+      "dynamic", 
+      "0a3735d9d834b2aaef364644943649699edef4f4b39329b5322bbcc8154d1aa0"
+    ], 
+    "repo-info": [
+      "nova-compute", 
+      "static", 
+      "640360e1d08375be52dbb2bcce4c19eca9b57e8f90efb51c9e81afc861bfa483"
+    ], 
+    "requirements.txt": [
+      "nova-compute", 
+      "static", 
+      "4bf24051805ded7f78bf1233e466a4f41444347084187fc40ee43eedbfe90388"
+    ], 
+    "revision": [
+      "nova-compute", 
+      "static", 
+      "e726b440cc164001999e718b51780d80314709efe06e7857282377be9111127b"
+    ], 
+    "templates/git/nova-api-metadata.init.in.template": [
+      "nova-compute", 
+      "static", 
+      "84b5f9a1114feace416ff4a93528dfe7971127f6b543fcd77df759da809e2ca8"
+    ], 
+    "templates/git/nova-api.init.in.template": [
+      "nova-compute", 
+      "static", 
+      "4d9359e60399afe1942a82d82322ecfc4733f4c6379b534af32960e23ad287df"
+    ], 
+    "templates/git/nova-compute-kvm.conf": [
+      "nova-compute", 
+      "static", 
+      "ebf404bcb23c55b989125cf0644c8b2c1941b42cf24dd2ab9f1eb927423e0f6f"
+    ], 
+    "templates/git/nova-compute-lxc.conf": [
+      "nova-compute", 
+      "static", 
+      "f3ecd6d7ae156d78e2dfea6d0659141277998434a6ab69911642af9b31031859"
+    ], 
+    "templates/git/nova-compute-lxd.conf": [
+      "nova-compute", 
+      "static", 
+      "9af6b799d0423983b98ae6c0488730471ffb77b24e6dda85b95c4411e8217d70"
+    ], 
+    "templates/git/nova-compute-qemu.conf": [
+      "nova-compute", 
+      "static", 
+      "f1cc80770ee25fcfd00f4a404e3e0eb35130fe2b12ede337657c63b8dcaa3ce0"
+    ], 
+    "templates/git/nova-compute-vmware.conf": [
+      "nova-compute", 
+      "static", 
+      "cad2525b1bb3d56a973cb9bc549314680d210d64feeee1cfaf5edd3212c3d365"
+    ], 
+    "templates/git/nova-compute-xen.conf": [
+      "nova-compute", 
+      "static", 
+      "71f35f437972f5578b6aab7420b7004355c8fb14a5204e8f4ae35be5defb40c7"
+    ], 
+    "templates/git/nova-compute.init.in.template": [
+      "nova-compute", 
+      "static", 
+      "810349aa9b51195033f38ef5c7e16876803f2c99cd02a04744b9ff64c44d04a7"
+    ], 
+    "templates/git/nova-network.init.in.template": [
+      "nova-compute", 
+      "static", 
+      "164d1568c2d971a424f5ab56b91916fbdf33da7210b3676eb2af4892c6b80afb"
+    ], 
+    "templates/git/nova_sudoers": [
+      "nova-compute", 
+      "static", 
+      "347ec44a339a026307f3f7d4e71851867503846aceaa451a31b3ba44d1912f5e"
+    ], 
+    "templates/git/nova_tgt.conf": [
+      "nova-compute", 
+      "static", 
+      "a719282ff004724e629cf009712edde03628b600823890035f8aa0d753d21c5c"
+    ], 
+    "templates/git/upstart/nova-compute.upstart": [
+      "nova-compute", 
+      "static", 
+      "f99a135dafa47aef9d2cc0f75248e65a71531ce66e5c1b7d5b458a5c5400a26f"
+    ], 
+    "templates/icehouse/nova.conf": [
+      "nova-compute", 
+      "static", 
+      "049f316039405636226b80e230ca56c7c661d32e3e33c17e42b303fae0703a6f"
+    ], 
+    "templates/juno/nova.conf": [
+      "nova-compute", 
+      "static", 
+      "96a790628967d8244e8a4077156f30c12c84e6b60e0b8b31002a1780a0afe1f8"
+    ], 
+    "templates/kilo/nova.conf": [
+      "nova-compute", 
+      "static", 
+      "3d634f6ebadcaa7b1a75645f419213a9fefe46ae5533a4032424f701eda01a6b"
+    ], 
+    "templates/liberty/nova.conf": [
+      "nova-compute", 
+      "static", 
+      "51ec8d29bd832d7531f890095b2b2e8c14e4b8b1b5746beea628869375b0fc59"
+    ], 
+    "templates/libvirt-bin": [
+      "nova-compute", 
+      "static", 
+      "b771b03979c388da7b2681d41e638841e15352fea194b4967cc5cb9fe9de8be3"
+    ], 
+    "templates/libvirt-bin.override": [
+      "nova-compute", 
+      "static", 
+      "676e850e1d804d3f0a372e743adbf56a5a4b9927f064dfdf38e4d23783d0ef74"
+    ], 
+    "templates/libvirtd.conf": [
+      "nova-compute", 
+      "static", 
+      "cce4dd4b76cd7f4aa722909f48538c3e855e9fa3a95748354a5f142f2edf9f00"
+    ], 
+    "templates/mitaka/nova.conf": [
+      "nova-compute", 
+      "static", 
+      "c5d17fb15fad50039e54df1d9d72362610c0b97f6c2e1664a97b297ecfb7108c"
+    ], 
+    "templates/ocata/nova.conf": [
+      "nova-compute", 
+      "static", 
+      "b45c57ca8704b96621653cdab722f3a3df6d979bf93e9e28a934859d4c6c5782"
+    ], 
+    "templates/parts/database": [
+      "nova-compute", 
+      "static", 
+      "1103f4b11a3e8dcb619b2c93772b8a27f1a002c1ef957c13dd64f9be35389198"
+    ], 
+    "templates/parts/rabbitmq": [
+      "nova-compute", 
+      "static", 
+      "f9c70ea0822cebe079089ade235d7326b851181d84b0a2ccf47d1ec06c1d2baa"
+    ], 
+    "templates/parts/section-cinder": [
+      "nova-compute", 
+      "static", 
+      "72a4c1569520955ac0fd97cbf3428d328659f63c3a465b99598b381cf89d7c81"
+    ], 
+    "templates/parts/section-database": [
+      "nova-compute", 
+      "static", 
+      "664435958f1458a49b2893140e35ed9cb8b1b9a6d1a66d55417830a76479c55d"
+    ], 
+    "templates/parts/section-ephemeral": [
+      "nova-compute", 
+      "static", 
+      "479e1ac08dbdbd905d0c6364ebca7e833e792a827936523bee0106bb09af5dcd"
+    ], 
+    "templates/parts/section-placement": [
+      "nova-compute", 
+      "static", 
+      "2fd9c5242173c66401e65781629f1edf72add6e8971067f53d035cd620512642"
+    ], 
+    "templates/parts/section-serial-console": [
+      "nova-compute", 
+      "static", 
+      "41c324cfa8f3c5335ee6b308397fe3eb3620c45d0c1a5a0b8ca2b85750fe4392"
+    ], 
+    "templates/qemu-kvm": [
+      "nova-compute", 
+      "static", 
+      "ec484b85a1ea62d7ca84c627ada73056df2b1d8ea2e6f9c18a1b9d7b00cd2d74"
+    ], 
+    "templates/qemu.conf": [
+      "nova-compute", 
+      "static", 
+      "30fee9eecab2e52b9011b918fb0355ae03fa00f16c1c170019ff0530f1574f06"
+    ], 
+    "templates/secret.xml": [
+      "nova-compute", 
+      "static", 
+      "3a7bfff38cfa5afc8b3847db09d96f273addc1a9757e0c714a20d36942416cbd"
+    ], 
+    "templates/usr.bin.nova-api": [
+      "nova-compute", 
+      "static", 
+      "d0bc280f91abf8eb0add4d3361289fd89067b17709419708e4a801e84f592119"
+    ], 
+    "templates/usr.bin.nova-compute": [
+      "nova-compute", 
+      "static", 
+      "ba7e888c82d06d3f778f9ebc7be2b9ef180585584d074df00b6621c83e23d749"
+    ], 
+    "templates/usr.bin.nova-network": [
+      "nova-compute", 
+      "static", 
+      "c6e5e607b6e4d77d02cf7c1178cacd8fab4e207a38d853990d0d133ab4b16053"
+    ], 
+    "test-requirements.txt": [
+      "nova-compute", 
+      "static", 
+      "689847d39678ac9eb06db6668dd5847a29ae41953ad0e0b1d7112402a428fcbb"
+    ], 
+    "tests/README.md": [
+      "nova-compute", 
+      "static", 
+      "8d640d8637d924379fda20714a99a1b32714cda03210fa965b44d283a4ab8b36"
+    ], 
+    "tests/basic_deployment.py": [
+      "nova-compute", 
+      "static", 
+      "cc03aeb591925d103e34ce010160711fb8baf9514c359409bb96fcd03b8f8732"
+    ], 
+    "tests/charmhelpers/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "71c9fb5d91ae2b93e83ad8ad342dc0b806f51e916ba83f6808bd78d70b645490"
+    ], 
+    "tests/charmhelpers/contrib/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/contrib/amulet/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/contrib/amulet/deployment.py": [
+      "nova-compute", 
+      "static", 
+      "e6b8bf320a7edd1302a470ee3cef22623df13f60a60555ddad3fa6a8f2d04cdb"
+    ], 
+    "tests/charmhelpers/contrib/amulet/utils.py": [
+      "nova-compute", 
+      "static", 
+      "230ac4897271de3a821dd2975c76978cf54c33e7e637a33baa6829cfc8ea4454"
+    ], 
+    "tests/charmhelpers/contrib/network/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/contrib/network/ip.py": [
+      "nova-compute", 
+      "static", 
+      "a9e4b102c200ed2e078f2e46e2e618ffa25876b4e505ca3dc867994e3ac3e41a"
+    ], 
+    "tests/charmhelpers/contrib/openstack/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/contrib/openstack/amulet/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/contrib/openstack/amulet/deployment.py": [
+      "nova-compute", 
+      "static", 
+      "31b0349218e677d7e7301e0b02baee47ebd870db7d963ddb00eb6ebaada5a2ef"
+    ], 
+    "tests/charmhelpers/contrib/openstack/amulet/utils.py": [
+      "nova-compute", 
+      "static", 
+      "523046a14286713a60e9c036fb0d78dac497d60d912e1880827464a4c63a2e13"
+    ], 
+    "tests/charmhelpers/contrib/openstack/exceptions.py": [
+      "nova-compute", 
+      "static", 
+      "2bb336bdbeaf4aced2820e9053fd3f5d6b9add3dd912278831da86d4fdf662a7"
+    ], 
+    "tests/charmhelpers/contrib/openstack/utils.py": [
+      "nova-compute", 
+      "static", 
+      "82de99a8b4d26a1de5b0132ceac77767dfd7177537e867d3425351becd712760"
+    ], 
+    "tests/charmhelpers/contrib/python/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/contrib/python/debug.py": [
+      "nova-compute", 
+      "static", 
+      "a99fa3f86962229c8231882bbbc2c36dac7095677843b05330ca1c797b405265"
+    ], 
+    "tests/charmhelpers/contrib/python/packages.py": [
+      "nova-compute", 
+      "static", 
+      "f703f0deebfad732020ea2204f4902cf43672c5a5da8f405fde191037c107524"
+    ], 
+    "tests/charmhelpers/contrib/python/rpdb.py": [
+      "nova-compute", 
+      "static", 
+      "f1b564811d80e483cc415862c37599b0f2146a1dd28bfde189c739cad7cf8be0"
+    ], 
+    "tests/charmhelpers/contrib/python/version.py": [
+      "nova-compute", 
+      "static", 
+      "3d4f813758dd572355ca0983304bcf73b2ecd56a78de44cac99bef0f4e4a2eec"
+    ], 
+    "tests/charmhelpers/contrib/storage/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/contrib/storage/linux/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/contrib/storage/linux/bcache.py": [
+      "nova-compute", 
+      "static", 
+      "ce0b05f05105bcf0c8c8d806206ef8843ccf4e75d8cc971caba29d7f3c560b99"
+    ], 
+    "tests/charmhelpers/contrib/storage/linux/ceph.py": [
+      "nova-compute", 
+      "static", 
+      "c6b347988804676c73ebdc84273cc5d372978ebe1a233fae3f81c33e25a97e15"
+    ], 
+    "tests/charmhelpers/contrib/storage/linux/loopback.py": [
+      "nova-compute", 
+      "static", 
+      "b4d430dc5ae5589be63dd4a9cfccce936f3dde0c1157b30ab3dccb2e7fdd8f91"
+    ], 
+    "tests/charmhelpers/contrib/storage/linux/lvm.py": [
+      "nova-compute", 
+      "static", 
+      "454d6a0bc4cf2562bf551d755a593d349246807ca26359dfd2a5665d3ba88aad"
+    ], 
+    "tests/charmhelpers/contrib/storage/linux/utils.py": [
+      "nova-compute", 
+      "static", 
+      "98bbf74fee61b25d85bca5efee15445985ba3705175941aa32b3e97bbdf327fa"
+    ], 
+    "tests/charmhelpers/core/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ], 
+    "tests/charmhelpers/core/decorators.py": [
+      "nova-compute", 
+      "static", 
+      "ec8a639c111bb78f7a36a96383c3aabed453eaa055ef81550fd647d38c0ba885"
+    ], 
+    "tests/charmhelpers/core/files.py": [
+      "nova-compute", 
+      "static", 
+      "aebc21fa7beae13ae5b87de858fc00fad06904d0d35f72bdb49c2c4900b75f13"
+    ], 
+    "tests/charmhelpers/core/fstab.py": [
+      "nova-compute", 
+      "static", 
+      "0c5eca5f455e4c46da237176112a960d067b702b725f8c53dfecc7aad453ea39"
+    ], 
+    "tests/charmhelpers/core/hookenv.py": [
+      "nova-compute", 
+      "static", 
+      "6d702fc40ddfff89d7e022fc80aa2480a8929f5bb31d87f5021933e5f8b9b3ea"
+    ], 
+    "tests/charmhelpers/core/host.py": [
+      "nova-compute", 
+      "static", 
+      "2e783d4ef6b0c2ed9627583107d049b4b760ee1488212005a1c1ca7f541b60c4"
+    ], 
+    "tests/charmhelpers/core/host_factory/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "tests/charmhelpers/core/host_factory/centos.py": [
+      "nova-compute", 
+      "static", 
+      "4e2c5170a23f0c2eb91a10ba374597c1355bbbb94bbb09339242c440c775a882"
+    ], 
+    "tests/charmhelpers/core/host_factory/ubuntu.py": [
+      "nova-compute", 
+      "static", 
+      "a4c045c2605a461d1ee76bb60d4114f8c750b61facb9e96cd35b545f33bd0ad6"
+    ], 
+    "tests/charmhelpers/core/hugepage.py": [
+      "nova-compute", 
+      "static", 
+      "b9e936d52b565beab1181d21b8a22f85f442c29e8cc3e96c1eea1529dd9a9aed"
+    ], 
+    "tests/charmhelpers/core/kernel.py": [
+      "nova-compute", 
+      "static", 
+      "b050c48878610b6413b548e031fbc62e3ad86711132d29699773b51cff83ba13"
+    ], 
+    "tests/charmhelpers/core/kernel_factory/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ], 
+    "tests/charmhelpers/core/kernel_factory/centos.py": [
+      "nova-compute", 
+      "static", 
+      "b4e04f888abd326a7b11ed9a6d6ab3ed6a91a2245fd4f5f89b13910b37a193bd"
+    ], 
+    "tests/charmhelpers/core/kernel_factory/ubuntu.py": [
+      "nova-compute", 
+      "static", 
+      "a06289e52c5b81a823bd8e9c9d43ac18dd1616e16edd71e2a498d096d6592249"
+    ], 
+    "tests/charmhelpers/core/services/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "65f4ffe4566c95ec2757d07b63dafe5bfc8ad07c2d113f2351e2b15def658595"
+    ], 
+    "tests/charmhelpers/core/services/base.py": [
+      "nova-compute", 
+      "static", 
+      "657868bce9dc19ad50bafe83659b9fcb6372f2ae2f822743bd95a84cb237c4ca"
+    ], 
+    "tests/charmhelpers/core/services/helpers.py": [
+      "nova-compute", 
+      "static", 
+      "995e0c72d6a02a454309036c1e9b097dcc413bb609830286174adc784eb70349"
+    ], 
+    "tests/charmhelpers/core/strutils.py": [
+      "nova-compute", 
+      "static", 
+      "633a565edcdfa3f3f8a8dc5e3006d27a5e1ac548bb0eaff37be0dfcba57197b1"
+    ], 
+    "tests/charmhelpers/core/sysctl.py": [
+      "nova-compute", 
+      "static", 
+      "1a91c168c7672bec2774a630554c9a8d75a16bc665d07a950b167ec9f2631d8a"
+    ], 
+    "tests/charmhelpers/core/templating.py": [
+      "nova-compute", 
+      "static", 
+      "f42b76c0972072df5397504a9fcb75a09dc0dffab774d93897037820a4a3e2cd"
+    ], 
+    "tests/charmhelpers/core/unitdata.py": [
+      "nova-compute", 
+      "static", 
+      "77613f93d617e09b6ef4967bd993cde6ca748dbcd4e05a98de740fdb8dc2184e"
+    ], 
+    "tests/charmhelpers/fetch/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "a7d9d212dcb7270d1e3e492d65758f00426e653b49e5b419d6ae2d2c801e78a7"
+    ], 
+    "tests/charmhelpers/fetch/archiveurl.py": [
+      "nova-compute", 
+      "static", 
+      "0a350a22e7684e184fc2b4cfc52a7bf2a7f123efc0a5cbd1467e29e54618b2b2"
+    ], 
+    "tests/charmhelpers/fetch/bzrurl.py": [
+      "nova-compute", 
+      "static", 
+      "32d527f5f604b4a2108ae5ef3eecb2ee35c66c7ec7102b7ccd81ebad90e8c4a7"
+    ], 
+    "tests/charmhelpers/fetch/centos.py": [
+      "nova-compute", 
+      "static", 
+      "7f016cc4e0dbf6600c35f4a2c8d072cb58615a9c0eef95635d413d516ecf76ec"
+    ], 
+    "tests/charmhelpers/fetch/giturl.py": [
+      "nova-compute", 
+      "static", 
+      "28ba841f3a623cda07648ae33af9ff47cb759ab4852c9e5ffccb95c738d250eb"
+    ], 
+    "tests/charmhelpers/fetch/snap.py": [
+      "nova-compute", 
+      "static", 
+      "da06d3f93f5a152cad0385122b0e8dd336044aefc6859661fd424c9037dbe62d"
+    ], 
+    "tests/charmhelpers/fetch/ubuntu.py": [
+      "nova-compute", 
+      "static", 
+      "1634da6465c279cdadb0a321dc5c2cce41fb38525c907282d4f672cf16841a9b"
+    ], 
+    "tests/charmhelpers/osplatform.py": [
+      "nova-compute", 
+      "static", 
+      "43257f5cea0eb917b727394d95f58d4519b7c4b6ce0d9cdb7008b159987eb353"
+    ], 
+    "tests/dfs-basic-trusty-icehouse": [
+      "nova-compute", 
+      "static", 
+      "ed76cfd564af3e990636b4e3195b6d9f54ffcc4f7c53319a8880d7ba2e1b5d2c"
+    ], 
+    "tests/dfs-basic-trusty-kilo": [
+      "nova-compute", 
+      "static", 
+      "7f854b8fea566ecbb1ba019e451dcea4969cd13bf2cf4860404c9f03da378682"
+    ], 
+    "tests/gate-basic-artful-pike": [
+      "nova-compute", 
+      "static", 
+      "0134d30bf86f72c54ed2a5a503944a883312d3524f3fad0205e18c4556de5971"
+    ], 
+    "tests/gate-basic-trusty-icehouse": [
+      "nova-compute", 
+      "static", 
+      "9b1e2cf90472614a9b05aaf069405efe6a02399c1b74bb3df95ea40e7701f098"
+    ], 
+    "tests/gate-basic-trusty-kilo": [
+      "nova-compute", 
+      "static", 
+      "d7bf16db81bea8b01ee2ee63897610111ffd6c8652977dd1af01a745d4981275"
+    ], 
+    "tests/gate-basic-trusty-liberty": [
+      "nova-compute", 
+      "static", 
+      "95b46ecac63e96a2d76c12fa1b38061070d22515cd1e18a9cd907e56caee7d9e"
+    ], 
+    "tests/gate-basic-trusty-mitaka": [
+      "nova-compute", 
+      "static", 
+      "8b662e321029bf1721dd96bcade26f843255acb987f4ec74ec3b3a7cd77d7fc7"
+    ], 
+    "tests/gate-basic-xenial-mitaka": [
+      "nova-compute", 
+      "static", 
+      "65e8ace8a46c7e5226b6bd0f73d6b201056035302e1b985e37ee3988b9937356"
+    ], 
+    "tests/gate-basic-xenial-newton": [
+      "nova-compute", 
+      "static", 
+      "f4ab8c42b45ebf198a9eb274874eeabc117e9238f16e29b138747841470f3592"
+    ], 
+    "tests/gate-basic-xenial-ocata": [
+      "nova-compute", 
+      "static", 
+      "83efbce5a3b02a5d35afd0be54e3f1af2ce8fd2a7101e59df6dcde0433ddf225"
+    ], 
+    "tests/gate-basic-xenial-pike": [
+      "nova-compute", 
+      "static", 
+      "d97495c5466b0d08dc74fd4c9fad92f9a8b6619522272e405ee9f6aabe2ac1b7"
+    ], 
+    "tests/tests.yaml": [
+      "nova-compute", 
+      "static", 
+      "ac6092cab9006763624b83b51f914292a724c465169ffc0e927782509e264c25"
+    ], 
+    "tox.ini": [
+      "nova-compute", 
+      "static", 
+      "222bf77237f3eb85851012fa67ff548390e0f2c0ffa95f88a25d0ee369b7c2f4"
+    ], 
+    "unit_tests/__init__.py": [
+      "nova-compute", 
+      "static", 
+      "f88ed5b03fa72271ac711f260fd0ca205e9b7f57c681a4c1b1ee14432858f0aa"
+    ], 
+    "unit_tests/test_actions_git_reinstall.py": [
+      "nova-compute", 
+      "static", 
+      "3b044fa516dc060f60aea87477010e96bea282e06b696fb73df2ceeca977843d"
+    ], 
+    "unit_tests/test_actions_openstack_upgrade.py": [
+      "nova-compute", 
+      "static", 
+      "032ecc039cc5f760a65f70807149acaa7577d03cbfaee49d408dc92b48ad830a"
+    ], 
+    "unit_tests/test_actions_pause_resume.py": [
+      "nova-compute", 
+      "static", 
+      "9a15148e52e860bd7b861fce0280078e096a89570026fc8d206a783c5bef416c"
+    ], 
+    "unit_tests/test_nova_compute_contexts.py": [
+      "nova-compute", 
+      "static", 
+      "71517f1b59e1bfbfac2dc5c440cb19554492075cff02f7f9864de3d193e6f0c3"
+    ], 
+    "unit_tests/test_nova_compute_hooks.py": [
+      "nova-compute", 
+      "static", 
+      "7b0a15f037357ec4c38b3ffb3fe25f0c77f4a20f4c771c4855c8796881eccc9c"
+    ], 
+    "unit_tests/test_nova_compute_utils.py": [
+      "nova-compute", 
+      "static", 
+      "5aa041d707beaee14105a90b20220eadd3aea13c6d4778c663066dcd3a2dd743"
+    ], 
+    "unit_tests/test_utils.py": [
+      "nova-compute", 
+      "static", 
+      "a09feafe63f8ea03b2dec16171f76ac87aa6af6af983c108773bf314a1969dd5"
+    ]
+  }
+}
