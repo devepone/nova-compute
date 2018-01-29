@@ -3,6 +3,11 @@ Overview
 
 This charm provides Nova Compute, the OpenStack compute service. Its target
 platform is Ubuntu (preferably LTS) + OpenStack.
+It was modified from original to contain libvirt lvm for images support.
+Added neccesary parameter is:
+images_volume_group
+Please set it in config.yaml whenever you want to use lvm backend for libvirt.
+
 
 Usage
 =====
